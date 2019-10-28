@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: tanha, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +8,29 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: tanha, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*@font-face {*/
+/*    font-family: 'tanha';*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*    src: url("./fonts/Tanha.eot");*/
+/*    src: url('./fonts/Tanha.eot?#iefix') format('embedded-opentype');*/
+
+/*}*/
+body {
+    font-family: 'tanha';
+}
+@font-face {
+        font-family: "tanha";
+        font-style: normal;
+        font-weight: bold;
+        src: url("./font/Tanha.eot");
+        src: url('./font/Tanha.eot?#iefix');
+        src: url('./font/Tanha.woff2');
+        src: url('./font/Tanha.woff');
+        src: url('./font/Tanha.ttf');
+}
+
