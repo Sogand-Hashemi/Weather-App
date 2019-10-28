@@ -12,17 +12,10 @@ code {
     monospace;
 }
 
-/*@font-face {*/
-/*    font-family: 'tanha';*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-/*    src: url("./fonts/Tanha.eot");*/
-/*    src: url('./fonts/Tanha.eot?#iefix') format('embedded-opentype');*/
-
-/*}*/
 body {
     font-family: 'tanha';
 }
+
 @font-face {
         font-family: "tanha";
         font-style: normal;
