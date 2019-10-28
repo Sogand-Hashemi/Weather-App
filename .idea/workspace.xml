@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c59a17-63a8-454d-9ba9-28bff6a8b627" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/componenets/Titles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/Titels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/componenets/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Weather.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +47,7 @@
       <updated>1572277165227</updated>
       <workItem from="1572277169189" duration="4000" />
       <workItem from="1572281182048" duration="2663000" />
+      <workItem from="1572295740316" duration="1199000" />
     </task>
     <servers />
   </component>
@@ -59,7 +59,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
