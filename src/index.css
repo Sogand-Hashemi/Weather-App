@@ -26,4 +26,107 @@ body {
         src: url('./font/Tanha.woff');
         src: url('./font/Tanha.ttf');
 }
+body{
+    background-color: darkgray;
+}
+form{
+    background-color: gray;
+    border-top-right-radius: 60px;
+    padding-top: 50px;
 
+}
+.title{
+    background-color:#595959;
+    border-radius: 60px;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+}
+.bg-design{
+    background-color: gray;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: 600px;
+    background-image: url("images/nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden !important;
+}
+.inputs{
+    border:3px inset white;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    height: 35px;
+}
+.form-btn{
+    margin: 0 33% 10px !important;
+    border:1px groove #31B0D5;
+    border-radius: 5px;
+}
+.cloud-1{
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url("./images/source.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cloud-2{
+    top: 44%;
+    right: 15px;
+    width: 130px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("./images/source1.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sun{
+    top: 0;
+    left: 36%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("./images/sun.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cloud-3{
+    transform: scaleX(-1);
+    left: -20px;
+    top: 10px;
+    overflow: hidden;
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("./images/clouds3.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}.cloud-4{
+    transform: scaleX(-1);
+    left: 95px;
+    top: 61%;
+    overflow: hidden;
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("./images/source4.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.weather{
+    height: 376px;
+    background-color: gray;
+    margin: -376px 0;
+    border-bottom-right-radius: 60px;
+    color: white;
+    padding-top: 60px;
+}

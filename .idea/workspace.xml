@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c59a17-63a8-454d-9ba9-28bff6a8b627" name="Default Changelist" comment="ن">
+      <change afterPath="$PROJECT_DIR$/src/componenets/BgDesign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componenets/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componenets/Titles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Titles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componenets/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Weather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +56,8 @@
       <updated>1572277165227</updated>
       <workItem from="1572277169189" duration="4000" />
       <workItem from="1572281182048" duration="2663000" />
-      <workItem from="1572295740316" duration="6920000" />
+      <workItem from="1572295740316" duration="7037000" />
+      <workItem from="1572351249232" duration="8773000" />
     </task>
     <servers />
   </component>
