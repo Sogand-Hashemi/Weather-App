@@ -4,6 +4,7 @@ import Titles from "./componenets/Titles";
 import Form from "./componenets/Form";
 import BgDesign from "./componenets/BgDesign";
 import Weather from "./componenets/Weather";
+import Map from "./componenets/Map";
 
 
 
@@ -62,8 +63,8 @@ class App extends React.Component {
                     humidity={this.state.humidity}
                     description={this.state.description}
                     error={this.state.error}
-
                 />
+                <Map />
             </div>
         );
     }
