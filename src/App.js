@@ -4,10 +4,11 @@ import Titles from "./componenets/Titles";
 import Form from "./componenets/Form";
 import BgDesign from "./componenets/BgDesign";
 import Weather from "./componenets/Weather";
-import Map from "./componenets/Map";
+import GoogleMap from "./componenets/GoogleMap";
+// import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 
-
+// const apiKey = 'AIzaSyDaVdYhviOhDIGNtNGM2JEKu1pwibrwOBA';
 const API_KEY = '77d238f0efc00f10afc0eff085241815' ;
 
 class App extends React.Component {
@@ -18,6 +19,8 @@ class App extends React.Component {
         country: undefined,
         humidity: undefined,
         description: undefined,
+        lat:35.7,
+        lon:51.4,
         error: undefined
     };
 
@@ -25,7 +28,7 @@ class App extends React.Component {
         e.preventDefault();
         const city = e.target.elements.city.value;
         const country = e.target.elements.country.value;
-        const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
+        const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&q=${city},${country}&appid=${API_KEY}&units=metric`);
         const data = await api_call.json();
         console.log(data);
         if (city && country) {
@@ -35,6 +38,8 @@ class App extends React.Component {
                 country: data.sys.country,
                 humidity: data.main.humidity,
                 description: data.weather[0].description,
+                lat:data.coord.lat,
+                lon:data.coord.lon,
                 error: ''
     
             });
@@ -45,6 +50,8 @@ class App extends React.Component {
                 country: undefined,
                 humidity: undefined,
                 description: undefined,
+                lat:undefined,
+                lon:undefined,
                 error: 'لطفا مقادیر را وارد کنید'
 
             });
@@ -62,12 +69,19 @@ class App extends React.Component {
                     country={this.state.country}
                     humidity={this.state.humidity}
                     description={this.state.description}
+                    lat={this.state.lat}
+                    lon={this.state.lon}
                     error={this.state.error}
                 />
-                <Map />
+                <GoogleMap lat={this.state.lat} lon={this.state.lon} />
+                {/*lat={this.data.lat} lng={this.data.lon}*/}
             </div>
         );
     }
 }
 
+
+// export default GoogleApiWrapper({
+//     apiKey: ("AIzaSyDaVdYhviOhDIGNtNGM2JEKu1pwibrwOBA")
+// })(App)
 export default App;

@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="08c59a17-63a8-454d-9ba9-28bff6a8b627" name="Default Changelist" comment="ن">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componenets/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/GoogleMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componenets/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +63,7 @@
       <workItem from="1572718201963" duration="117000" />
       <workItem from="1572721041687" duration="165000" />
       <workItem from="1572734952507" duration="2045000" />
+      <workItem from="1572815380440" duration="11060000" />
     </task>
     <servers />
   </component>

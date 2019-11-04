@@ -131,3 +131,15 @@ form{
     color: white;
     padding-top: 60px;
 }
+
+.googleMap{
+    height:400px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 65px;
+    background-color:transparent;
+    padding: 0;
+}
+#map{
+    margin: 0 auto !important;
+}
