@@ -57,6 +57,8 @@ class App extends React.Component {
             });
         }
     };
+
+
     render(){
         return(
             <div className='container'>
@@ -81,7 +83,4 @@ class App extends React.Component {
 }
 
 
-// export default GoogleApiWrapper({
-//     apiKey: ("AIzaSyDaVdYhviOhDIGNtNGM2JEKu1pwibrwOBA")
-// })(App)
 export default App;

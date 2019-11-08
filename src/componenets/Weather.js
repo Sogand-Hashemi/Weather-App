@@ -8,7 +8,7 @@ const Weather = props => (
         {props.description && <h3>شرایط جوی: {props.description}</h3>}
         {props.error && <h3>{props.error}</h3>}
         {props.lat && <h3>lat: {props.lat}</h3>}
-        {props.lon && <h3>lon: {props.lon}</h3>}
+        {props.lon && <h3>lng: {props.lon}</h3>}
     </div>
 );
 
