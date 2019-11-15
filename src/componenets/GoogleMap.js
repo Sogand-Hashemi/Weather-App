@@ -1,27 +1,30 @@
+
 import React from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper, } from 'google-maps-react';
 
 
 class GoogleMap extends React.Component{
-    constructor( props ){
-        super( props );
-        this.state = {
-            city: '',
-            area: '',
-            state: '',
-            mapPosition: {
-                lat: this.props.lat,
-                lng: this.props.lon
-            },
-            markerPosition: {
-                lat: this.props.lat,
-                lng: this.props.lon
-            }
-        }
-    }
+
+    // constructor( props ){
+    //     super( props );
+    //     this.state = {
+    //         city: '',
+    //         area: '',
+    //         state: '',
+    //         mapPosition: {
+    //             lat: this.props.lat,
+    //             lng: this.props.lon
+    //         },
+    //         markerPosition: {
+    //             lat: this.props.lat,
+    //             lng: this.props.lon
+    //         }
+    //     }
+    // }
 
 
-    render() {
+
+    render(props) {
         return(
         <div className='col-md-12 googleMap text-center col-lg-12 col-sm-12 col-xs-12 title'>
             <Map id='map' google={this.props.google} initialCenter={{
