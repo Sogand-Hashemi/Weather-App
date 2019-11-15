@@ -5,10 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/GoogleMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Weather.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +65,7 @@
       <workItem from="1573127168954" duration="266000" />
       <workItem from="1573238538506" duration="4703000" />
       <workItem from="1573244798451" duration="8472000" />
+      <workItem from="1573841654599" duration="627000" />
     </task>
     <servers />
   </component>
