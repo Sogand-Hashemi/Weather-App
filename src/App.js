@@ -4,8 +4,8 @@ import Titles from "./componenets/Titles";
 import Form from "./componenets/Form";
 import BgDesign from "./componenets/BgDesign";
 import Weather from "./componenets/Weather";
-import GoogleMap from "./componenets/GoogleMap";
-
+// import GoogleMap from "./componenets/PigeonmMaps";
+import PigeonMaps from "./componenets/PigeonMaps";
 // const apiKey = 'AIzaSyDaVdYhviOhDIGNtNGM2JEKu1pwibrwOBA';
 const API_KEY = '77d238f0efc00f10afc0eff085241815' ;
 
@@ -17,8 +17,8 @@ class App extends React.Component {
         country: undefined,
         humidity: undefined,
         description: undefined,
-        lat:undefined,
-        lon:undefined,
+        lat:51.4,
+        lon:35.7,
         error: undefined
     };
 
@@ -74,8 +74,9 @@ class App extends React.Component {
                     error={this.state.error}
                 />
                 {/*<GoogleMap center={[this.state.lat, this.state.lon]} zoom={12} width={600} height={400}/>*/}
-                <GoogleMap lat={this.state.lat} lon={this.state.lon} />
+                {/*<GoogleMap lat={this.state.lat} lon={this.state.lon} />*/}
                 {/*/!*lat={this.data.lat} lng={this.data.lon}*!/*/}
+                <PigeonMaps lat={this.state.lat} lon={this.state.lon} />
             </div>
         );
     }
