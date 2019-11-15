@@ -73,9 +73,6 @@ class App extends React.Component {
                     lon={this.state.lon}
                     error={this.state.error}
                 />
-                {/*<GoogleMap center={[this.state.lat, this.state.lon]} zoom={12} width={600} height={400}/>*/}
-                {/*<GoogleMap lat={this.state.lat} lon={this.state.lon} />*/}
-                {/*/!*lat={this.data.lat} lng={this.data.lon}*!/*/}
                 <PigeonMaps lat={this.state.lat} lon={this.state.lon} />
             </div>
         );

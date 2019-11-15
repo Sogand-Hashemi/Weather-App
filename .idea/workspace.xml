@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c59a17-63a8-454d-9ba9-28bff6a8b627" name="Default Changelist" comment="ن">
-      <change afterPath="$PROJECT_DIR$/src/componenets/PigeonMaps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenets/GoogleMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componenets/PigeonMaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenets/PigeonMaps.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,7 @@
       <workItem from="1573244798451" duration="8472000" />
       <workItem from="1573841654599" duration="1784000" />
       <workItem from="1573843765197" duration="1786000" />
-      <workItem from="1573845606245" duration="779000" />
+      <workItem from="1573845606245" duration="1213000" />
     </task>
     <servers />
   </component>
